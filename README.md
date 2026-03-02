@@ -1,112 +1,36 @@
-# myweb
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-🚀 Coding Vieb – Developer Learning Platform
-Coding Vieb is a modern EdTech platform built for beginner to intermediate developers.
-This platform provides tutorials, blogs, resources, and future-ready course systems.
-🌐 Live Demo
-(Add your deployed link here)
-Copy code
+## Getting Started
 
-https://yourwebsite.com
-👨‍💻 Founder
-Chetan Sharma
-Web Developer | Content Creator | Founder of Coding Vieb
-Instagram: @coding_vieb
-🛠 Tech Stack
-Frontend
-Next.js / React.js
-TypeScript
-Tailwind CSS
-Framer Motion
-Backend
-Node.js
-Express.js
-JWT Authentication
-Database
-MongoDB Atlas
-Media & Payments
-Cloudinary
-Razorpay (future ready)
-✨ Features
-🔥 Modern SaaS UI (Dark Theme)
-📚 Tutorials Hub with filters & search
-📝 SEO Optimized Blog System
-🎓 Course Structure (Free + Premium Ready)
-👤 User Dashboard
-🛠 Admin Panel
-📂 Resource Vault (PDFs & Projects)
-🔐 Authentication System
-📈 Progress Tracking
-💌 Newsletter System
-📂 Project Structure
-Copy code
+First, run the development server:
 
-coding-vieb/
-│
-├── client/ (Frontend)
-│   ├── components/
-│   ├── pages/ or app/
-│   ├── hooks/
-│   ├── styles/
-│
-├── server/ (Backend)
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│
-├── .env
-├── package.json
-└── README.md
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-Bash
-Copy code
-git clone https://github.com/yourusername/coding-vieb.git
-cd coding-vieb
-2️⃣ Install Dependencies
-Frontend:
-Bash
-Copy code
-cd client
-npm install
-Backend:
-Bash
-Copy code
-cd server
-npm install
-3️⃣ Setup Environment Variables
-Create .env file inside server:
-Copy code
-
-MONGO_URI=your_mongodb_url
-JWT_SECRET=your_secret_key
-CLOUDINARY_URL=your_cloudinary_key
-Frontend .env.local:
-Copy code
-
-NEXT_PUBLIC_API_URL=http://localhost:5000
-4️⃣ Run Project
-Backend:
-Bash
-Copy code
+```bash
 npm run dev
-Frontend:
-Bash
-Copy code
-npm run dev
-🚀 Deployment
-Frontend → Vercel
-Backend → Render
-Database → MongoDB Atlas
-Make sure environment variables are added in production dashboard.
-🔐 Future Improvements
-Payment Integration (Razorpay)
-Certificate Generation
-Community Forum
-Gamification System
-Mobile App Version
-📈 Vision
-To build Coding Vieb into a scalable EdTech brand that helps students learn coding in a practical and simple way.
-⭐ Support
-If you like this project, give it a ⭐ on GitHub.
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
